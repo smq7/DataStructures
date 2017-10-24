@@ -9,7 +9,7 @@ letters.push('C');
 console.dir({ letters });
 
 const numbers = [1, 2, 3];
-letters.push(4);
+numbers.push(4); // а то оно добавляло в 'letters' не понятно зачем
 console.dir({ numbers });
 
 const languages = ['C++', 'JavaScript', 'Python', 'Haskell', 'Swift'];
